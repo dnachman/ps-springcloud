@@ -28,7 +28,7 @@ public class TaskProcessor {
 		
 		System.out.println("created task request");
 		
-		GenericMessage<TaskLaunchRequest> message = new GenericMessage<TaskLaunchRequest>(request);
+		GenericMessage<TaskLaunchRequest> message = new GenericMessage<>(request);
 		
 		this.source.output().send(message);
 	}
