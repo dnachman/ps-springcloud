@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>pluralsight.demo</groupId>
-	<artifactId>pluralsight-eureka-tollrate-billboard</artifactId>
+	<artifactId>pluralsight-eureka-fastpass-console</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>pluralsight-eureka-tollrate-billboard</name>
+	<name>pluralsight-eureka-fastpass-console</name>
 	<description>Demo project for Spring Cloud Eureka</description>
 
 	<parent>
