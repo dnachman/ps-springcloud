@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
-@RibbonClient(name="pluralsight-fastpass-service")
+@RibbonClient(name="pluralsight-fastpass-service", configuration=TollClientRoutingConfig.class)
 @Controller
 public class FastPassController {
 	
